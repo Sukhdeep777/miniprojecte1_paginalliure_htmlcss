@@ -63,6 +63,10 @@ body{ /*Selector Global de Body*/
     border: 1px solid #000000;
 }
 
+h1{
+    font-family: 'Times New Roman', Times, serif;
+}
+
 a{
     color: #36c; /*Color de los links para que se vea mejor como en Wikipedia*/
 }
