@@ -1,3 +1,6 @@
+body{ /*Selector Global de Body*/
+    background-color: #a2a9b1; /*Ponemos el color gris a todo el body como el de Wikipedia*/
+}
 
 .flex{ /*Para poner Flex*/
     display: flex;
