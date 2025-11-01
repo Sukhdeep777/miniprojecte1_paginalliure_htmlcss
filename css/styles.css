@@ -11,19 +11,19 @@ body{ /*Selector Global de Body*/
     flex-direction: column;
 }
 
-.espacio{ /* Espacio entre el menu y el texto*/
+.espacio{ /* Espacio entre el menu y el texto u otros elementos*/
     gap: 20px;
 }
 
 .menu{ /*El CSS del menu*/
-    padding: 10px;
-    margin-top: 55px;
+    padding: 10px; /*Que haya un espacio interior, para que se vea como el menu de Wikipedia*/
+    margin-top: 55px; /*Un margin top para que se separa el menu y este debajo del h1.*/
 }
 
 .imagen{ /*Le ponemos flex para que se vean en el centro del texto*/
     display: flex;
     flex-direction: column;
-    justify-content: end;
+    justify-content: end; /*Como pusimos en columna, justify y align se intercanvian*/
     gap: 20px;
 }
 
