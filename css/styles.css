@@ -27,16 +27,35 @@ body{ /*Selector Global de Body*/
 }
 
 .menu{ /*El CSS del menu*/
-    padding: 10px; /*Que haya un espacio interior, para que se vea como el menu de Wikipedia*/
-    margin-top: 60px; /*Un margin top para que se separa el menu y este debajo del h1.*/
+    padding: 15px; /*Que haya un espacio interior, para que se vea como el menu de Wikipedia*/
+    margin-top: 70px; /*Un margin top para que se separa el menu y este debajo del h1.*/
     font-size: 14px;
+}
+
+.apariencia{ /* CSS del Apartado de apariencia para que se vea en medio el contenido*/
+    padding: 15px;
+    margin-top: 70px;
+    font-size: 14px;
+}
+
+.inputapariencia input[type="checkbox"] {
+    appearance: none; /* EL type checkbox se queda sin apariencia y no hay nada*/
+    width: 15px; /*Ponemos un width y un height para crear la forma de un cuadrada para moldearlo despues para que se haga un circulo*/
+    height: 15px;
+    border: 2px solid #000;
+    border-radius: 50%;
+    cursor: pointer; /* Sirve para detectar el raton encima del punta como si fuese un botton*/
+}
+
+.inputapariencia input[type="checkbox"]:checked{
+    background-color: #000; /*El color que sale al presionar, es decir despues de checked*/
 }
 
 .imagen{ /*Le ponemos flex para que se vean en el centro del texto*/
     display: flex;
     flex-direction: column;
-    justify-content: end; /*Como pusimos en columna, justify y align se intercanvian*/
-    gap: 20px;
+    justify-content: center; /*Como pusimos en columna, justify y align se intercanvian*/
+    gap: 60px;
     padding: 5px;
 }
 
