@@ -1,5 +1,5 @@
 body{ /*Selector Global de Body*/
-    background-color: #a2a9b1; /*Ponemos el color gris a todo el body como el de Wikipedia*/
+    background-color: #f3f4f5; /*Ponemos el color gris a todo el body como el de Wikipedia*/
     font-family: sans-serif; /*Fuente de familia sans-serif como el de Wikipedia*/
 }
 
@@ -33,7 +33,7 @@ body{ /*Selector Global de Body*/
 }
 
 .apariencia{ /* CSS del Apartado de apariencia para que se vea en medio el contenido*/
-    padding: 15px;
+    padding: 30px;
     margin-top: 70px;
     font-size: 14px;
 }
@@ -61,4 +61,8 @@ body{ /*Selector Global de Body*/
 
 .box{ /*Per fer bordes a les imatges, porque aun no sabemos hacer tablas*/
     border: 1px solid #000000;
+}
+
+a{
+    color: #36c; /*Color de los links para que se vea mejor como en Wikipedia*/
 }
