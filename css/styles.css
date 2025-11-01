@@ -1,5 +1,16 @@
 body{ /*Selector Global de Body*/
     background-color: #a2a9b1; /*Ponemos el color gris a todo el body como el de Wikipedia*/
+    font-family: sans-serif; /*Fuente de familia sans-serif como el de Wikipedia*/
+}
+
+.background-white{ /*Creamos este selector para que la información se parezca al estilo de Wikipedia*/
+    background-color: #FFFFFF;
+}
+
+.centrado{ /*Centramos todo el contenido para que se vea igual que Wikipedia*/
+    max-width: 1590px; /*Tamaño Maximo de la caja*/
+    margin: 0 auto; /*Que no haya margenes*/
+    line-height: 1.6; /*Espaciado entre las lineas*/
 }
 
 .flex{ /*Para poner Flex*/
@@ -17,7 +28,8 @@ body{ /*Selector Global de Body*/
 
 .menu{ /*El CSS del menu*/
     padding: 10px; /*Que haya un espacio interior, para que se vea como el menu de Wikipedia*/
-    margin-top: 55px; /*Un margin top para que se separa el menu y este debajo del h1.*/
+    margin-top: 60px; /*Un margin top para que se separa el menu y este debajo del h1.*/
+    font-size: 14px;
 }
 
 .imagen{ /*Le ponemos flex para que se vean en el centro del texto*/
@@ -25,6 +37,7 @@ body{ /*Selector Global de Body*/
     flex-direction: column;
     justify-content: end; /*Como pusimos en columna, justify y align se intercanvian*/
     gap: 20px;
+    padding: 5px;
 }
 
 .box{ /*Per fer bordes a les imatges, porque aun no sabemos hacer tablas*/
