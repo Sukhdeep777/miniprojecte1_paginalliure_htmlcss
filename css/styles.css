@@ -1,7 +1,29 @@
-.flex{
+
+.flex{ /*Para poner Flex*/
     display: flex;
 }
 
-.espacio{
+.directionflex{ /*Para cambiar la dirección del flex*/
+    display: flex;
+    flex-direction: column;
+}
+
+.espacio{ /* Espacio entre el menu y el texto*/
     gap: 20px;
+}
+
+.menu{ /*El CSS del menu*/
+    padding: 10px;
+    margin-top: 55px;
+}
+
+.imagen{ /*Le ponemos flex para que se vean en el centro del texto*/
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    gap: 20px;
+}
+
+.box{ /*Per fer bordes a les imatges, porque aun no sabemos hacer tablas*/
+    border: 1px solid #000000;
 }
