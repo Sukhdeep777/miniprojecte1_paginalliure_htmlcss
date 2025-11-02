@@ -64,7 +64,7 @@ body{ /*Selector Global de Body*/
 }
 
 h1{
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif; /*Cambiar el estilo de texto de h1*/
 }
 
 a{
