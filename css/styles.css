@@ -74,3 +74,8 @@ a{
 .espacio-interior{
     padding: 10px; /*Espacio interior para que no se peguen con otros textos / imagenes */
 }
+
+.centro{ /*Para alinear al centro divs de imagen*/
+    display: flex;
+    align-items: center;
+}
