@@ -75,7 +75,12 @@ a{
     padding: 10px; /*Espacio interior para que no se peguen con otros textos / imagenes */
 }
 
-.centro{ /*Para alinear al centro divs de imagen*/
+.centro{ /*Para alinear al centro divs de imagen verticalmente*/
     display: flex;
     align-items: center;
+}
+
+.centrohorizontal{ /*Para alinear el centro de divs de la imagen horizontalmente*/
+    display: flex;
+    justify-content: center;
 }
