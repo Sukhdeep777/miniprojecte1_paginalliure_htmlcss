@@ -70,3 +70,7 @@ h1{
 a{
     color: #36c; /*Color de los links para que se vea mejor como en Wikipedia*/
 }
+
+.espacio-interior{
+    padding: 10px; /*Espacio interior para que no se peguen con otros textos / imagenes */
+}
